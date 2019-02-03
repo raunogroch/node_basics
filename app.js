@@ -1,7 +1,9 @@
-const http = require('http');
+const http = require('http')
+const express = require('express')
+var app = express()
 
-const server = http.createServer((req, res)=>{
-    res.end("connection stablished");
-});
+app.get('/', (req,res)=>{
+   res.send("saludos que tal")
+})
 
-server.listen(3000);
+app.listen(3000)

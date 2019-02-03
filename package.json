@@ -4,16 +4,12 @@
   "description": "learning node js",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/raunogroch/node_basics.git"
+    "test": "nodemon app.js"
   },
   "author": "raunogroch",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/raunogroch/node_basics/issues"
-  },
-  "homepage": "https://github.com/raunogroch/node_basics#readme"
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  }
 }
